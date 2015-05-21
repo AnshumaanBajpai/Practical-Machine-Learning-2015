@@ -5,7 +5,7 @@ library(Hmisc)
 library(Rcpp)
 library(ggplot2)
 library(rpart)
-
+library(randomForest)
 data=read.csv("./pml-training.csv")
 data=data[,-1]
 final_test=read.csv("./pml-testing.csv")
